@@ -414,6 +414,42 @@ tr {
 .gray__list{
     padding-left: 40px;
 }
+.characteristics p{
+    font-weight: 700;
+    color: #0093D0;
+    font-size: 13px;
+}
+.black_weight{
+    font-weight: 900;
+}
+.blue__box{
+    border: 1px solid #0093D0;
+    border-radius: 20px;
+    padding: 30px 20px;
+}
+.blue_text{
+    color: #0093D0;
+}
+.blue__title{
+    font-weight: 800;
+    color: #0093D0;
+    font-size: 16px;
+}
+.characteristics__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 350px;
+}
+.mt-100{
+    margin-top: 100px;
+}
+.black_italic{
+    font-style: italic;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
 @media(min-width: 820px) {
     .people::after {
         left: 400px;
